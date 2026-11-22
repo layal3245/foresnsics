@@ -1,0 +1,845 @@
+{
+    "investigation": {
+        "tool": "Python Forensic Analyzer",
+        "analysis_timestamp": "2026-11-22T18:52:46.830542+00:00",
+        "evidence_directory": "evidence"
+    },
+    "system_information": {
+        "product_name": "Windows 7 Ultimate",
+        "current_build": "7601",
+        "current_build_number": "7601",
+        "registered_owner": "informant",
+        "registered_organization": "",
+        "service_pack": "Service Pack 1",
+        "active_control_set": "ControlSet001",
+        "computer_name": "INFORMANT-PC",
+        "TimeZoneKeyName": "Eastern Standard Time",
+        "Bias": "300"
+    },
+    "installed_applications": [
+        {
+            "name": "Bonjour",
+            "version": "3.0.0.10",
+            "publisher": "Apple Inc."
+        },
+        {
+            "name": "Eraser 6.2.0.2962",
+            "version": "6.2.2962",
+            "publisher": "The Eraser Project"
+        },
+        {
+            "name": "Microsoft Access MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Access Setup Metadata MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft DCF MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Excel MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Groove MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft InfoPath MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Lync MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office 32-bit Components 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office OSM MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office OSM UX MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Professional Plus 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Proofing (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Proofing Tools 2013 - English",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Proofing Tools 2013 - Español",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Shared 32-bit MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Shared MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Office Shared Setup Metadata MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft OneNote MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Outlook MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft PowerPoint MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Publisher MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Microsoft Word MUI (English) 2013",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        },
+        {
+            "name": "Outils de vérification linguistique 2013 de Microsoft Office - Français",
+            "version": "15.0.4420.1017",
+            "publisher": "Microsoft Corporation"
+        }
+    ],
+    "user_accounts": [
+        {
+            "type": "RID",
+            "value": "000001F4"
+        },
+        {
+            "type": "RID",
+            "value": "000001F5"
+        },
+        {
+            "type": "RID",
+            "value": "000003E8"
+        },
+        {
+            "type": "RID",
+            "value": "000003E9"
+        },
+        {
+            "type": "RID",
+            "value": "000003EA"
+        },
+        {
+            "type": "RID",
+            "value": "000003EB"
+        },
+        {
+            "type": "Username",
+            "value": "Administrator"
+        },
+        {
+            "type": "Username",
+            "value": "Guest"
+        },
+        {
+            "type": "Username",
+            "value": "ITechTeam"
+        },
+        {
+            "type": "Username",
+            "value": "admin11"
+        },
+        {
+            "type": "Username",
+            "value": "informant"
+        },
+        {
+            "type": "Username",
+            "value": "temporary"
+        }
+    ],
+    "usb_history": [
+        {
+            "device": "Disk&Ven_SanDisk&Prod_Cruzer_Fit&Rev_2.01",
+            "instance_id": "4C530012450531101593&0",
+            "friendly_name": "SanDisk Cruzer Fit USB Device",
+            "manufacturer": "@disk.inf,%genmanufacturer%;(Standard disk drives)",
+            "control_set": "ControlSet001"
+        },
+        {
+            "device": "Disk&Ven_SanDisk&Prod_Cruzer_Fit&Rev_2.01",
+            "instance_id": "4C530012550531106501&0",
+            "friendly_name": "SanDisk Cruzer Fit USB Device",
+            "manufacturer": "@disk.inf,%genmanufacturer%;(Standard disk drives)",
+            "control_set": "ControlSet001"
+        }
+    ],
+    "mounted_devices": {
+        "C:": {
+            "volume_guid": "c9a1c041-d2d7-11e4-9dae-806e6f6e6963"
+        },
+        "A:": {
+            "volume_guid": "c9a1c045-d2d7-11e4-9dae-806e6f6e6963"
+        },
+        "D:": {
+            "volume_guid": "c9a1c044-d2d7-11e4-9dae-806e6f6e6963"
+        },
+        "E:": {
+            "volume_guid": "a2f2048e-d228-11e4-b630-000c29ff2429"
+        }
+    },
+    "user_activity": [
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_proposal.docx"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_proposal.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_design_concept.ppt"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_design_concept.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "secret.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "(secret_project)_pricing_decision.xlsx"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "(secret_project)_pricing_decision.xlsx.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "pricing decision.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_final_meeting.pptx"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "[secret_project]_final_meeting.pptx.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "final.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "winter_whether_advisory.zip"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "winter_whether_advisory.zip.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "CD Drive.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Penguins.jpg"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Penguins.jpg.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Koala.jpg"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Koala.jpg.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Tulips.jpg"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Tulips.jpg.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "CD Drive (2).lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Resignation_Letter_(Iaman_Informant).xps"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Resignation_Letter_(Iaman_Informant).xps.lnk"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Resignation_Letter_(Iaman_Informant).docx"
+        },
+        {
+            "source": "RecentDocs",
+            "filename": "Resignation_Letter_(Iaman_Informant).docx.lnk"
+        },
+        {
+            "source": "RunMRU",
+            "name": "a",
+            "value": "cmd"
+        },
+        {
+            "source": "RunMRU",
+            "name": "b",
+            "value": "\\\\10.11.11.128\\secured_drive"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.TettingFtarted"
+        },
+        {
+            "source": "UserAssist",
+            "application": "HRZR_PGYFRFFVBA"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.ZediaPenter"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\calc.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.FtickyAotes"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\FnippingGool.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\mspaint.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.EemoteQesktop"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\magnify.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Tames\\Folitaire\\solitaire.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "HRZR_PGYPHNPount:ctor"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.PontrolCanel"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{S38OS404-1Q43-42S2-9305-67QR0O28SP23}\\explorer.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.Fhell.EunQialog"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\cmd.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.VnternetRxplorer.Qefault"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\THZONQ6.tmp\\ToogleHpdate.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\Toogle\\Hpdate\\ToogleHpdate.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Phrome"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\Qesktop\\Qownload\\VR11-Jindows6.1-x64-en-us.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\slui.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\wscript.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Bffice\\Bffice15\\BHGYBBX.RKR"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Bffice.BHGYBBX.RKR.15"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.PontrolCanel.Gaskbar"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Bffice\\Bffice15\\JVAJBEQ.RKR"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Bffice\\Bffice15\\SVEFGEHA.RKR"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Bffice\\Bffice15\\CBJRECAG.RKR"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\Qownloads\\icloudsetup.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.JindowsVnstaller"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\THZN94O.tmp\\ToogleHpdate.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\Toogle\\Qrive\\googledrivesync.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{7P5N40RS-N0SO-4OSP-874N-P0S2R0O9SN8R}\\Pommon Siles\\Npple\\Vnternet Fervices\\iPloud.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Zicrosoft Bffice\\Bffice15\\RKPRY.RKR"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\taskmgr.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\rundll32.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.ChotoIiewer"
+        },
+        {
+            "source": "UserAssist",
+            "application": "Zicrosoft.Jindows.ZediaClayer32"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\Qesktop\\Qownload\\Rraser 6.2.0.2962.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\NppQata\\Yocal\\Gemp\\eraserVnstallOootstrapper\\dotAetSx40_Sull_setup.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\Qesktop\\Qownload\\ccsetup504.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\Rraser\\Rraser.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{6Q809377-6NS0-444O-8957-N3773S02200R}\\PPleaner\\PPleaner64.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\informant\\NppQata\\Yocal\\Gemp\\~nsu.tmp\\Nu_.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{1NP14R77-02R7-4R5Q-O744-2RO1NR5198O7}\\xpsrchvw.exe"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Jelcome Penter.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Zedia Penter.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Palculator.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Fticky Aotes.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Fnipping Gool.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Caint.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Nccessories\\Eemote Qesktop Ponnection.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{N77S5Q77-2R2O-44P3-N6N2-NON601054N51}\\Nccessories\\Nccessibility\\Zagnify.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "::{RQ228SQS-9RN8-4870-83O1-96O02PSR0Q52}\\{00Q8862O-6453-4957-N821-3Q98Q74P76OR}"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{9R3995NO-1S9P-4S13-O827-48O24O6P7174}\\GaskOar\\Vnternet Rxplorer.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\Cublic\\Qesktop\\Toogle Phrome.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Zicrosoft Bffice 2013\\Butlook 2013.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{9R3995NO-1S9P-4S13-O827-48O24O6P7174}\\GaskOar\\Toogle Phrome.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Zicrosoft Bffice 2013\\Jord 2013.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{9R3995NO-1S9P-4S13-O827-48O24O6P7174}\\GaskOar\\Jindows Zedia Clayer.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\Cublic\\Qesktop\\Rraser.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "P:\\Hsers\\Cublic\\Qesktop\\PPleaner.lnk"
+        },
+        {
+            "source": "UserAssist",
+            "application": "{0139Q44R-6NSR-49S2-8690-3QNSPNR6SSO8}\\Toogle Qrive\\Toogle Qrive.lnk"
+        },
+        {
+            "source": "MountPoints2",
+            "mount_point": "##10.11.11.128#secured_drive"
+        },
+        {
+            "source": "MountPoints2",
+            "mount_point": "{662626a6-d181-11e4-9591-000c29ff2429}"
+        },
+        {
+            "source": "MountPoints2",
+            "mount_point": "{a2f2048e-d228-11e4-b630-000c29ff2429}"
+        },
+        {
+            "source": "MountPoints2",
+            "mount_point": "{c9a1c041-d2d7-11e4-9dae-806e6f6e6963}"
+        },
+        {
+            "source": "MountPoints2",
+            "mount_point": "{c9a1c044-d2d7-11e4-9dae-806e6f6e6963}"
+        }
+    ],
+    "command_history": [
+        {
+            "source": "RunMRU",
+            "name": "a",
+            "value": "cmd"
+        },
+        {
+            "source": "RunMRU",
+            "name": "b",
+            "value": "\\\\10.11.11.128\\secured_drive"
+        }
+    ],
+    "browser_evidence": [],
+    "application_compatibility": [
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Apple Software Update",
+            "publisher": "Apple Inc.",
+            "version": "2.1.3.127",
+            "source_type": "Msi",
+            "attributes": {
+                "Id": "0000f2f7b23869f3438d375710ef44b7bbc600000904",
+                "MsiProductCode": "{789A5B64-9DD9-4BA5-915A-F0FC0A1B7BFE}",
+                "MsiPackageCode": "{24959AA1-60E4-4BFE-8FB0-7202F68067DD}",
+                "Name": "Apple Software Update",
+                "Publisher": "Apple Inc.",
+                "Version": "2.1.3.127",
+                "Language": "1033",
+                "Source": "Msi"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Bonjour",
+            "publisher": "Apple Inc.",
+            "version": "3.0.0.10",
+            "source_type": "Msi",
+            "attributes": {
+                "Id": "0000ac95c04a00964fee0287eea25476480c00000904",
+                "MsiProductCode": "{6E3610B2-430D-4EB0-81E3-2B57E8B9DE8D}",
+                "MsiPackageCode": "{31B0C8AC-11A5-4703-A2E8-2F2E1B87A3A3}",
+                "Name": "Bonjour",
+                "Publisher": "Apple Inc.",
+                "Version": "3.0.0.10",
+                "Language": "1033",
+                "Source": "Msi"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Google Drive",
+            "publisher": "Google, Inc.",
+            "version": "1.20.8672.3137",
+            "source_type": "Msi",
+            "attributes": {
+                "Id": "000081072ac49e5e7113615023e6c06c105900000904",
+                "MsiProductCode": "{6C36881B-0E51-4231-9D02-BF2149664D34}",
+                "MsiPackageCode": "{548C188C-B8C1-4FB2-A905-956FDE1454A9}",
+                "Name": "Google Drive",
+                "Publisher": "Google, Inc.",
+                "Version": "1.20.8672.3137",
+                "Language": "1033",
+                "Source": "Msi"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "iCloud",
+            "publisher": "Apple Inc.",
+            "version": "4.0.6.28",
+            "source_type": "Msi",
+            "attributes": {
+                "Id": "0000fda85b5b9bbb4833e3d5ad56c2fd7f0300000904",
+                "MsiProductCode": "{309768A4-A2BB-4930-A5A2-8169678C9B4C}",
+                "MsiPackageCode": "{75E9F4CF-1128-4D13-BB59-B13EBCB28EEC}",
+                "Name": "iCloud",
+                "Publisher": "Apple Inc.",
+                "Version": "4.0.6.28",
+                "Language": "1033",
+                "Source": "Msi"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Apple Application Support",
+            "publisher": "Apple Inc.",
+            "version": "3.0.6",
+            "source_type": "Msi",
+            "attributes": {
+                "Id": "0000bf5ae7cac762ecf33066cb9ecda5fdee00000904",
+                "MsiProductCode": "{78002155-F025-4070-85B3-7C0453561701}",
+                "MsiPackageCode": "{5D1E3650-FA36-42F0-8A64-DA8114B116D0}",
+                "Name": "Apple Application Support",
+                "Publisher": "Apple Inc.",
+                "Version": "3.0.6",
+                "Language": "1033",
+                "Source": "Msi"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Microsoft Office Professional Plus 2013",
+            "publisher": "Microsoft Corporation",
+            "version": "15.0.4420.1017",
+            "source_type": "AddRemoveProgram",
+            "attributes": {
+                "Id": "0000fd0ba3cdcec45a9574aeb62584bc3c100000ffff",
+                "Name": "Microsoft Office Professional Plus 2013",
+                "Publisher": "Microsoft Corporation",
+                "Version": "15.0.4420.1017",
+                "Source": "AddRemoveProgram"
+            }
+        },
+        {
+            "source": "AEINV_PREVIOUS.xml",
+            "name": "Google Chrome",
+            "publisher": "Google Inc.",
+            "version": "41.0.2272.101",
+            "source_type": "AddRemoveProgram",
+            "attributes": {
+                "Id": "0000b9da047e18bb305507b6194ab51617a40000ffff",
+                "Name": "Google Chrome",
+                "Publisher": "Google Inc.",
+                "Version": "41.0.2272.101",
+                "Source": "AddRemoveProgram"
+            }
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\a5df94fcac8e62a530d048042c2a\\setuputility.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\program files (x86)\\windows media player\\setup_wm.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\program files\\ccleaner\\ccleaner.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\program files\\ccleaner\\ccleaner64.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\aspnet_regiis.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\mscorsvw.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\ngen.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\regtlibv12.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework64\\v4.0.30319\\servicemodelreg.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework\\v4.0.30319\\aspnet_regiis.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework\\v4.0.30319\\mscorsvw.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework\\v4.0.30319\\ngen.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework\\v4.0.30319\\regtlibv12.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\microsoft.net\\framework\\v4.0.30319\\servicemodelreg.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\system32\\lodctr.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\system32\\unlodctr.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\system32\\wuauclt.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\syswow64\\ping.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\syswow64\\unlodctr.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\syswow64\\wbem\\mofcomp.exe"
+        },
+        {
+            "source": "RecentFileCache.bcf",
+            "type": "extracted_string",
+            "value": "c:\\windows\\syswow64\\wusa.exe"
+        }
+    ],
+    "missing_artifacts": [],
+    "analysis_errors": []
+}
